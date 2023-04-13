@@ -1,3 +1,67 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(0, 255, 110, 1);
+    text-align: center;
+}
+
+.buscador-conteiner {
+    background-color: rgb(6, 53, 37);
+    text-align: center;
+    min-height: 40vh;
+}
+
+form label {
+    display: block;
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-bottom: 1rem;
+}
+
+form input {
+    padding: 10px;
+    width: 25%;
+    border-radius: 5px;
+}
+
+#envia {
+    background-color: rgb(0, 102, 255);
+    font-size: 1.5rem;
+    vertical-align: bottom;
+    border: none;
+    padding: 5px;
+    color: azure;
+}
+
+.cep-buscado p {
+    color: rgb(158, 163, 167);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
 h1 {
-    color: aqua;
+    color: rgb(167, 232, 235);
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+
+.logo {
+    height: 110px;
+    width: 110px;
+}
+
+.mostrandoDados {
+    text-align: center;
+    color:rgb(18, 107, 119);
+    font-size: 1.5rem;
+    border: 3px solid black;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.mostrandoDados p {
+    display: inline-block;
+    justify-content: left;
 }
