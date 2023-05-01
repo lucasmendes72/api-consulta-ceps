@@ -13,12 +13,29 @@
       <h1>Consulta Cep</h1>
       <form>
         <label for="cep">Encontre endereços inserindo abaixo o CEP</label>
-        <input type="text" id="cep" name="cep" required>
-        <button id="envia" type="submit">Buscar</button>
-        <button id="nova-busca" type="submit">Nova Busca</button>
+        <input type="text" id="cep" name="cep" pattern="[0-9]{8}" title="Digite apenas 8 Números">
+        <button id="envia" type="button">Buscar</button>
+        <!-- <button id="nova-busca" type="button">Nova Busca</button> -->
+        <p>Obs. Digite apenas um CEP com 8 números, sem traços, pontos ou espaços.</p>
       </form>
     </div>
     <div class="result"></div>
+    <div class="descricao">
+      <h1>Sobre o CEP</h1>
+      <p>CEP: Código de Endereçamento Postal.
+        Todo CEP é exclusivo de um endereço.
+      </p>
+      <p>O Busca CEP encontra e organiza todos os endereços do Brasil. Os Correios controlam, adicionam e removem CEPs 
+        de acordo com a demanda de entrega e distribuição de correspondências e crescimento de novas ruas.</p>
+        <p>Em uma determinada cidade, não poderá haver dois endereços com o mesmo nome. Porém poderá haver um endereço com o mesmo nome em uma cidade diferente do Brasil. Duas cidades com nomes iguais em estados diferentes é muito comum.
+
+          Para solucionar isso, o CEP foi criado.
+          
+          Os primeiros números indicam a região do estado no Brasil, com subdivisão do estado respectivamente. 
+          Os números restantes são um mapeamento de todas as cidades, bairros e endereços do Brasil.
+        </p>
+    </div>
+    
 
 
 

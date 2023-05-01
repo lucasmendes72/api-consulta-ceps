@@ -13,6 +13,12 @@ header {
     min-height: 40vh;
 }
 
+.buscador-conteiner p {
+    font-size: 1.4rem;
+    color: brown;
+    padding-top: 0.5rem;
+}
+
 form label {
     display: block;
     font-size: 1.5rem;
@@ -20,10 +26,11 @@ form label {
     margin-bottom: 1rem;
 }
 
-form input {
+#cep {
     padding: 10px;
     width: 25%;
     border-radius: 5px;
+    display: inline-block;
 }
 
 #envia {
@@ -33,17 +40,6 @@ form input {
     border: none;
     padding: 5px;
     color: azure;
-    display: inline-block;
-}
-
-#nova-busca {
-    background-color: rgb(0, 102, 255);
-    font-size: 1.5rem;
-    vertical-align: bottom;
-    border: none;
-    padding: 5px;
-    color: azure;
-    display: none;
 }
 
 .cep-buscado p {
@@ -65,14 +61,31 @@ h1 {
 
 .mostrandoDados {
     text-align: center;
-    color:rgb(18, 107, 119);
+    color: rgb(21, 129, 134);
     font-size: 1.5rem;
     border: 3px solid black;
     width: 40%;
     margin: 0 auto;
+    background-color: #ccc;
 }
 
 .mostrandoDados p {
     display: inline-block;
     justify-content: left;
+}
+
+.descricao {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.descricao p {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: black;
+}
+
+.descricao h1 {
+    color: rgb(21, 129, 134);
 }
