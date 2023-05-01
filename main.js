@@ -40,3 +40,4 @@ botaoEnviar.onclick = async (event) => {
   botaoEnviar.style.display = "none";
 };
 
+export { consultaCep };

@@ -19,7 +19,7 @@ header {
     padding-top: 0.5rem;
 }
 
-form label {
+.formulario label {
     display: block;
     font-size: 1.5rem;
     color: aliceblue;
@@ -52,6 +52,12 @@ h1 {
     color: rgb(167, 232, 235);
     margin-bottom: 1.5rem;
     padding-top: 1rem;
+    text-align: center;
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
 }
 
 .logo {
@@ -88,4 +94,31 @@ h1 {
 
 .descricao h1 {
     color: rgb(21, 129, 134);
+}
+
+/* CSS Página de Cadastro*/
+
+.principal-conteiner {
+    background-color: rgb(6, 53, 37);
+    min-height: 60vh;
+}
+
+.principal-form {
+    padding: 2.5rem 0;
+    margin-left: 5rem;
+}
+
+.principal-form label {
+    display: block;
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+.principal-form input {
+    display: block;
+    padding: 10px;
+    border-radius: 25px;
+    width: 50%;
+    margin-bottom: 1rem;
+    border: 2px solid #abaeaf;
 }
