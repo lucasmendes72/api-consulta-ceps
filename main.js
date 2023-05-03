@@ -40,4 +40,7 @@ botaoEnviar.onclick = async (event) => {
   botaoEnviar.style.display = "none";
 };
 
-export { consultaCep };
+// export { consultaCep };
+
+// Código da Página de Cadastros
+
