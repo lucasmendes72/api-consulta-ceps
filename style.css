@@ -4,7 +4,25 @@
 
 header {
     background-color: rgb(0, 255, 110, 1);
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 110px;
+    width: 110px;
+}
+
+nav a {
+    font-size: 1.6rem;
+    color: azure;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(86, 109, 129);
+    transition: 1.5s;
 }
 
 .buscador-conteiner {
@@ -58,11 +76,6 @@ h1 {
 h2 {
     color: aliceblue;
     text-align: center;
-}
-
-.logo {
-    height: 110px;
-    width: 110px;
 }
 
 .mostrandoDados {
